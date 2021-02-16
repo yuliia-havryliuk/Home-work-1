@@ -59,6 +59,3 @@ body{
     color: #ffffff;
     transition: .2s linear;
 }
-input[type='button']::-ms-value{
-    color: gold;
-}
