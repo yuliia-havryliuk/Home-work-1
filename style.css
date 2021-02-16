@@ -30,14 +30,21 @@ body{
     border: tomato 2px solid ;
     border-radius: 5px;
     padding: 20px;
+    box-shadow: rgba(255,8,0,0.6) 0 0 50px;
 }
 .homework__type{
     font-family: 'Pacifico', cursive;
     font-size: 24px;
+    padding: 10px;
 }
-.homework__item{
-    padding-bottom: 20px;
+.homework__item {
+    padding: 10px;
 }
+.homework__item:hover{
+    box-shadow: rgba(255,8,0,0.6) 0 0 10px;
+    transition: .2s linear;
+}
+
 .homework__title{
     font-weight: 500;
     font-size: 18px;
