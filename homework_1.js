@@ -61,7 +61,8 @@ function task3() {
 
 function task4() {
     let userRadius = prompt('Який радіус кола?')
-    let resultRadius = Math.PI * +userRadius;
+    let radiusCount = Math.pow(userRadius, 2);
+    let resultRadius = Math.PI * radiusCount;
     alert(`Площа кола ${resultRadius} сантиметри.`)
 }
 
