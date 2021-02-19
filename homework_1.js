@@ -44,9 +44,9 @@ function task1() {
  /*2. Запитайтесь якого року народження юзер, теперішній рік візьмемо за константу.
  Виведемо скільки йому років.*/
 function task2() {
-    const year = 2021;
+    const Year = 2021;
     let userBirthYear = prompt('Якого ти року народження?')
-    alert(`Мені ${year - userBirthYear} років.`);
+    alert(`Мені ${Year - userBirthYear} років.`);
 }
 /*3. Запитайтесь у юзера довжини сторін прямокутника та виведіть його периметр.*/
 
@@ -69,9 +69,9 @@ function task4() {
  йому необхідно часу їхати, та виведіть відстань.*/
 
 function task5() {
-    const middleSpeed = 50;
+    const MiddleSpeed = 50;
     let userSpeed = prompt('Скільки Вам потрібно часу їхати?(в годинах)');
-    let userDestination = middleSpeed * userSpeed;
+    let userDestination = MiddleSpeed * userSpeed;
     alert(`Вам ще їхати: ${userDestination} кілометрів.`)
 }
 /*6. Реалізуємо конвертер кілометрів в милі і навпаки =)*/
