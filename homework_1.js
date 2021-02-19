@@ -51,11 +51,10 @@ function task2() {
 /*3. Запитайтесь у юзера довжини сторін прямокутника та виведіть його периметр.*/
 
 function task3() {
-    let sideA = prompt('Довжина сторони А трикутника:')
-    let sideB = prompt('Довжина сторони В трикутника:')
-    let sideС = prompt('Довжина сторони С трикутника:')
+    let sideA = prompt('Довжина сторони А прямокутника:')
+    let sideB = prompt('Довжина сторони В прямокутника:')
 
-    alert(`Периметр трикутника: ${+sideA + +sideB + +sideС}.`);
+    alert(`Периметр прямокутника: ${2*(+sideA + +sideB)}.`);
 }
 /*4. Запитайтесь в юзера радіус кола та виведіть його площу.(число пі)*/
 
@@ -70,7 +69,7 @@ function task4() {
  йому необхідно часу їхати, та виведіть відстань.*/
 
 function task5() {
-    let middleSpeed = 50;
+    const middleSpeed = 50;
     let userSpeed = prompt('Скільки Вам потрібно часу їхати?(в годинах)');
     let userDestination = middleSpeed * userSpeed;
     alert(`Вам ще їхати: ${userDestination} кілометрів.`)
